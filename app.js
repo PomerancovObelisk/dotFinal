@@ -29,6 +29,7 @@ function resize() {
   canvas.width = innerWidth;
   canvas.height = innerHeight;
 }
+
 addEventListener("resize", resize);
 resize();
 
